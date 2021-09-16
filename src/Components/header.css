@@ -1,0 +1,70 @@
+.header {
+  height: 58px;
+  border-bottom: 1px solid #f0f0f0;
+  box-shadow: 1px 0px 5px #878686;
+  position: relative;
+}
+.header-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 58px;
+}
+.header-middle {
+  margin: auto;
+  width: 960px;
+  height: 100%;
+  padding-right: 70px;
+  box-sizing: border-box;
+}
+.header-middle a {
+  line-height: 56px;
+  padding: 0 15px;
+  font-size: 17px;
+}
+.header-left {
+  float: left;
+  color: #333;
+}
+.header-right {
+  float: right;
+  color: #969696;
+}
+.active {
+  color: chocolate;
+}
+#header-search {
+  margin-top: 9px;
+  margin-left: 20px;
+  padding: 0 20px;
+  width: 160px;
+  height: 38px;
+  border: none;
+  outline: none;
+  border-radius: 19px;
+  background: #eee;
+  font-size: 14px;
+  outline: none;
+}
+.header-login {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 58px;
+}
+.header-login button {
+  line-height: 38px;
+  border-radius: 19px;
+  margin-top: 9px;
+  margin-right: 20px;
+  padding: 0 20px;
+  border: 1px solid #ec6149;
+  background-color: none;
+}
+
+.header-login button:active {
+  background-color: none;
+}
+#btn-ogr {
+  color: #ec6149;
+}
